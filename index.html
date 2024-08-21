@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rinterio</title>
+
+    <!-- CSS Added -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- Daisy UI and Tailwind CSS Added -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font Added -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Added -->
+    <script src="https://kit.fontawesome.com/426c87c833.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="manrope-font">
+  <!-- Head Section -->
+  <section class="bg-[#f5f5f5]">
+      <header class="container mx-auto sm:pt-12 pt-8 px-5">
+          <!-- Navbar Section -->
+          <div class="navbar flex justify-between">
+              
+              <!-- Logo on the Left -->
+              <div class="navbar-start">
+                  <div class="flex items-center">
+                      <div class="bg-[#ABEF5F] rounded-[100%] p-3 mr-3 w-8 h-8 flex justify-center items-center">
+                          <i class="fa-solid fa-arrow-right -rotate-45 text-lg"></i>
+                      </div>
+                      <a class="font-black text-3xl">Rinterio</a>
+                  </div>
+              </div>
+              
+              <!-- Menu Button on the Right for Small Screens -->
+              <div class="navbar-end lg:hidden">
+                  <div class="dropdown relative">
+                      <div tabindex="0" role="button" class="btn btn-ghost w-12 h-12 flex justify-center bg-white rounded-[100%] items-center text-xl border border-[#e8e8e8]">
+                          <i class="fa-solid fa-bars"></i>
+                      </div>
+                      <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-30 p-2 shadow absolute left-[-70px]">
+                          <li><a>Home</a></li>
+                          <li><a>Services</a></li>
+                          <li><a>Portfolio</a></li>
+                          <li><a>Blogs</a></li>
+                          <li><a>Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+              <!-- Nav Menu Large Screen -->
+              <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 space-x-8">
+                      <li><a class="text-[#494949] text-base font-extrabold">Home</a></li>
+                      <li><a class="text-[#737373] text-base">Services</a></li>
+                      <li><a class="text-[#737373] text-base">Portfolio</a></li>
+                      <li><a class="text-[#737373] text-base">Blogs</a></li>
+                      <li><a class="text-[#737373] text-base">Contact Us</a></li>
+                  </ul>
+              </div>
+
+              <!-- Buttons for Large Screens -->
+              <div class="navbar-end hidden lg:flex space-x-4">
+                  <div class="w-12 h-12 flex justify-center bg-white rounded-[100%] items-center text-xl border border-[#e8e8e8]">
+                      <a href="" class="text-[#737373]"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
+                  <div class="w-12 h-12 flex justify-center bg-white rounded-[100%] items-center text-xl border border-[#e8e8e8]">
+                      <a href="" class="text-[#737373]"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+
+                  <button class="btn px-5 py-3 h-[56px] flex justify-center items-center rounded-[32px] bg-[#ABEF5F]">
+                      <a class="text-xl font-extrabold text-[#1C1C1C]">Book Consult</a>
+                      <div class="bg-[#1C1C1C] rounded-[100%] p-3 w-8 h-8 flex justify-center items-center">
+                          <i class="fa-solid fa-arrow-right -rotate-45 text-lg text-white"></i>
+                      </div>
+                  </button>
+              </div>
+          </div>
+      </header>
+  </section>
+
+  
+</body>
+
+
+</html>
